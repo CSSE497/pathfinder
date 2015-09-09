@@ -20,3 +20,7 @@ author:
 
 # Custom vars
 version:             1.0.0
+highlighter: pygments
+safe: true
+lsi: false
+source: .
