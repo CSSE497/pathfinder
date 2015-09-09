@@ -1,7 +1,0 @@
----
-layout: post
-title:  "Test Post"
-date:   2015-09-10 10:50:09
-categories: test
----
-Hello World
