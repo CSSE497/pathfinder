@@ -13,3 +13,6 @@
 [submodule "pathfinder-server"]
 	path = pathfinder-server
 	url = https://github.com/csse497/pathfinder-server
+[submodule "pathfinder.js"]
+	path = pathfinder.js
+	url = https://github.com/csse497/pathfinder.js
