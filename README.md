@@ -1,5 +1,6 @@
-[![Stories in Ready](https://badge.waffle.io/CSSE497/pathfinder.png?label=ready&title=Ready)](https://waffle.io/CSSE497/pathfinder)
 # Pathfinder
+[![Stories in Ready](https://badge.waffle.io/CSSE497/pathfinder.png?label=ready&title=Ready)](https://waffle.io/CSSE497/pathfinder)
+[![Stories in Progress](https://badge.waffle.io/CSSE497/pathfinder.png?label=In%20Progress&title=In%20Progress)](https://waffle.io/CSSE497/pathfinder)
 
 Pathfinder makes routing easy.
 
