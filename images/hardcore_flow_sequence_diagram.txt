@@ -1,0 +1,36 @@
+title Hardcore flow\nApp has app id, server has API key
+
+participant App
+participant Server\n(API Key) as S
+participant Pathfinder as P
+participant OpenID Connect Provider as Auth
+
+
+App --> Auth: Open ID Connect protocol
+Auth --> App: Signed ID token JWT
+note left of App: App verifies\nJWT signature
+
+App --> S: Request access\ntoken for user by id token
+S --> P: Registers cluster-level\nvehicle/commodity permissions\nfor id token
+S --> P: Request temporary access\ntoken for user with API key
+note right of P: Pathfinder mints access token\nfor user with 30 min expiration
+
+P --> S: Access token for user
+
+S --> App: Access token for user
+
+App -> P: Open socket with access token, id token, app id and cluster id
+
+Pathfinder verifies ID token signature and access token
+
+App -> P: Create vehicle request
+
+note right of P: Pathfinder determines if user is\nauthorized to create vehicles in\nthe cluster commodities
+
+P -> App: Confirms vehicle creation
+
+
+P -> App: Assigns route
+
+P -> App: Assigns new updated route
+
