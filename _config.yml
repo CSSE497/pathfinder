@@ -12,7 +12,7 @@ paginate:            5
 
 # Custom vars
 version:             1.0.0
-highlighter: pygments
+highlighter: rouge
 safe: true
 lsi: false
 source: .
