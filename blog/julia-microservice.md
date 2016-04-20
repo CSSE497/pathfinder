@@ -1,4 +1,7 @@
-Adam Michael, <adam@ajmichael.net>
+<!--
+Deploying Microservices in Julia
+Adam Michael
+-->
 
 Pathfinder uses several different routing engines to find the optimal route for your application. From a software perspective, the most interesting is a webserver written in [Julia](http://julialang.org/) that uses linear programming.
 
