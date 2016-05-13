@@ -10,11 +10,11 @@ We are a team of students from Rose-Hulman Institute of Technology. As our senio
 - David Robinson <robinsdm@rose-hulman.edu>
 - Dan Hanson <hansondg@rose-hulman.edu>
 
-All of our code is open source, MIT licensed and hosted within this GitHub organization.
+All of our code is open source, [MIT licensed](https://raw.githubusercontent.com/CSSE497/pathfinder/master/LICENSE) and hosted within this GitHub organization.
 
 ## List of Repositories
 
-Over the 9 months that we have been developing Pathfinder, our codebase has gone fairly large. It is split into several repositories to help us manage our continued development process.
+Over the course of Pathfinder's development, our codebase has gotten fairly large. It is split into several repositories to help us manage our continued development process.
 
 ### [`pathfinder-android`](https://github.com/csse497/pathfinder-android)
 The official Android SDK for using Pathfinder within an Android app. The code is also available on Maven Central.
