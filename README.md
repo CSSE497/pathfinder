@@ -4,7 +4,7 @@ Welcome to Pathfinder's codebase! This repository serves primarily as a wiki for
 
 ## About
 
-We are a team of students from Rose-Hulman Institute of Technology. As our senior capstone project for the Computer Science department we have created Pathfinder, a "route-optimization-platform-as-a-service" (abbreviation pending). Check it out at [https://thepathfinder.xyz](https://thepathfinder.xyz).
+We are a team of students from TRose-Hulman Institute of Technology. As our senior capstone project for the Computer Science department we have created Pathfinder, a "route-optimization-platform-as-a-service" (abbreviation pending). Check it out at [https://thepathfinder.xyz](https://thepathfinder.xyz).
 
 - Adam Michael <adam@ajmichael.net>
 - David Robinson <robinsdm@rose-hulman.edu>
